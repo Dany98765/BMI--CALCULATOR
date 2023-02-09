@@ -18,11 +18,11 @@ export default function App() {
         })
     }
     function CalculateBMI(event){
-        event.preventDefault()
+         event.preventDefault()
          setBMICalculation(prevBMI => {
-            
-            return(ts.weight / ( (inputs.height) * inputs.height })  
-        })
+             return(inputs.weight /  (inputs.height) * inputs.height)
+         }
+       )
     
     }
    
