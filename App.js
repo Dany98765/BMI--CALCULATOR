@@ -20,7 +20,7 @@ export default function App() {
     function CalculateBMI(event){
          event.preventDefault()
          setBMICalculation(prevBMI => {
-             return(inputs.weight /  (inputs.height) * inputs.height)
+             return(inputs.weight /  (inputs.height * inputs.height))
          }
        )
     
